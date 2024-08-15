@@ -70,7 +70,7 @@ class Item {
     }
 
 
-    // constructor and destructor
+    // constructor 
 
     public Item(String name, float ammount, float threshold, float maxAmmount, Unit unit, Importance importance, float increment) {
         this.name = name;
@@ -92,6 +92,5 @@ class Item {
     public void useUnit()
     {
         this.ammount -= this.increment;
-
     }
 }
